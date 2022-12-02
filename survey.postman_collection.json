@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "6b64ed33-204e-4fd1-83df-1cb7478e14c6",
+		"name": "survey",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/http/v1/surveys",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"first survey\",\n    \"questions\": [\n        {\n            \"title\": \"how are you doing?\",\n            \"options\": [\n                {\n                    \"optionValue\": \"good\"\n                },\n                {\n                    \"optionValue\": \"excellent\"\n                },\n                {\n                    \"optionValue\": \"not good\"\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/http/v1/surveys",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"http",
+						"v1",
+						"surveys"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
