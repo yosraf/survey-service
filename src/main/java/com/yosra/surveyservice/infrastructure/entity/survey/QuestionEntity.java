@@ -1,4 +1,4 @@
-package com.yosra.surveyservice.infrastructure.entity;
+package com.yosra.surveyservice.infrastructure.entity.survey;
 import lombok.Getter;
 import lombok.Setter;
 

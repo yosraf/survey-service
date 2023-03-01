@@ -1,4 +1,4 @@
-package com.yosra.surveyservice.application.dto;
+package com.yosra.surveyservice.presentation.dto.survey;
 
 import lombok.Getter;
 import lombok.Setter;

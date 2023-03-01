@@ -2,8 +2,8 @@ package com.yosra.surveyservice.presentation.controller;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 
-import com.yosra.surveyservice.application.dto.SurveyRequestDto;
-import com.yosra.surveyservice.application.dto.SurveyResponseDto;
+import com.yosra.surveyservice.presentation.dto.survey.SurveyRequestDto;
+import com.yosra.surveyservice.presentation.dto.survey.SurveyResponseDto;
 import com.yosra.surveyservice.configuration.IntegrationTesting;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.MediaType;

@@ -1,6 +1,6 @@
-package com.yosra.surveyservice.infrastructure.repository;
+package com.yosra.surveyservice.infrastructure.repository.survey;
 
-import com.yosra.surveyservice.infrastructure.entity.SurveyEntity;
+import com.yosra.surveyservice.infrastructure.entity.survey.SurveyEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

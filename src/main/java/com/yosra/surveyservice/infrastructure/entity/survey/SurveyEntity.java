@@ -1,4 +1,4 @@
-package com.yosra.surveyservice.infrastructure.entity;
+package com.yosra.surveyservice.infrastructure.entity.survey;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -19,7 +19,7 @@ public class SurveyEntity {
 
     private String name;
 
-    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true,mappedBy = "survey")
+    @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "survey")
     private List<QuestionEntity> questions;
 
 }
